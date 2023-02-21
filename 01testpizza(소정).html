@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01testpizza.html</title>
+    <style>
+        *{
+            font-size: 14pt;
+            font-weight: bold;
+        }
+        fieldset{
+            width: 500px;
+            padding: 15px;
+            border-color: rgb(75, 126, 75);
+        }
+        textarea{
+            border-color:  rgb(75, 126, 75);
+        }
+      
+        
+        img{
+            padding-left: 50px;
+        }
+        .size{
+            width: 150px;
+        }
+        button{
+            color: rgb(75, 126, 75);
+        }
+
+        img:hover{
+            width: 150px ;
+            height: 150px;
+        }
+    </style>
+    <script>
+        
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    <h3>01testpizza.html</h3>
+
+<fieldset>
+    <legend>피자 주문하기</legend>
+    <form action="">
+        고객명: &nbsp; &nbsp; <input type="text"> <br>
+        전화번호:&nbsp; <input type="tel" name="" id="" required> <br>
+        E-mail: &nbsp; &nbsp;   <input type="email"> <br>
+        
+<p></p> 
+        <fieldset>
+        <legend>피자 종류</legend>
+            <img src="pizza_images/a.jpg"  width="100px" height="100px">
+            <img src="pizza_images/b.jpg" width="100px" height="100px" > <br>
+            <input type="radio"  name="pizza" > 블랙타이거 슈림프 
+            <input type="radio"  name="pizza" > 아보카도 새우 <br>
+            <img src="pizza_images/c.jpg" width="100px" height="100px" > <br>
+        <!-- <img src="./images/d.jpg" width="100px" height="100px" > <br>  -->
+            <input type="radio"  name="pizza" > 포테이토
+       </fieldset>
+<p></p>
+        <fieldset class="size" >
+            <legend>피자 사이즈</legend>
+            <input type="radio" name="size" > Small  <br>
+            <input type="radio" name="size" id=""> Medium <br>
+            <input type="radio" name="size" id=""> Large <br>
+        </fieldset>
+<p></p>
+        <fieldset >
+            <legend>토핑선택</legend>
+            <label>
+                <input type="checkbox" name="" id=""> 베이컨 
+                <input type="checkbox" name="" id=""> 파인애플 
+                <input type="checkbox" name="" id=""> 치즈  
+                <input type="checkbox" name="" id=""> 양파 
+                <input type="checkbox" name="" id=""> 버섯 
+                <input type="checkbox" name="" id=""> 올리브 
+            </label>
+
+        </fieldset> 
+<p></p>
+        희망배송시간: <input type="time" max="22:00" min="10:00" name="" id=""> <br>
+<p></p>
+        배송시 요청사항: <br>
+        <textarea  name="" id="" cols="30" rows="5"></textarea><br>
+<p></p>
+        <button>주문하기</button>
+    </form>
+</fieldset>
+
+</body>
+</html>
